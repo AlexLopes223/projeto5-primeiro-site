@@ -1,6 +1,5 @@
 function App() {
   return (
-    <div style={{ padding: '20px', fontFamily: 'sans-serif' }}>
      <img src="/react.png" alt="React Logo" width="120" />
       <h1>React</h1>
       <p>A biblioteca para interfaces de usuário web e nativas.</p>
