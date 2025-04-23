@@ -1,10 +1,14 @@
+
 function App() {
   return (
-     <img src="/react.png" alt="React Logo" width="120" />
+    <div className="app-container">
+      <img src="/react.png" alt="React Logo" className="logo" />
       <h1>React</h1>
       <p>A biblioteca para interfaces de usuário web e nativas.</p>
-      <button>Aprenda React</button>
-      <button style={{ marginLeft: '10px' }}>Referência da API</button>
+      <div className="button-container">
+        <button>Aprenda React</button>
+        <button>Referência da API</button>
+      </div>
       <hr />
       <h2>Crie interfaces de usuário de componentes</h2>
       <p>
